@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blind AI - sivusto rakenteilla</title>
     <meta name="description" content="Blind AI -sivusto on rakenteilla." />
+    <meta name="theme-color" content="#0d0d0d" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/blind-ai-icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,5 +27,12 @@
         </div>
       </section>
     </main>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("service-worker.js");
+        });
+      }
+    </script>
   </body>
 </html>
