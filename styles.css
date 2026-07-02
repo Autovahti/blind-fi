@@ -53,13 +53,15 @@ body::before {
   text-align: center;
 }
 
-.kicker {
-  margin: 0 0 10px;
-  color: var(--accent-soft);
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+.brand-mark {
+  width: clamp(96px, 16vw, 148px);
+  aspect-ratio: 1;
+  margin: 0 0 24px;
+  border-radius: 28%;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    0 18px 48px rgba(0, 0, 0, 0.36),
+    0 0 42px rgba(0, 255, 157, 0.14);
 }
 
 h1 {
@@ -73,7 +75,7 @@ h1 {
 
 .lead,
 .note {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0;
   color: var(--muted);
   font-size: 20px;
@@ -113,4 +115,3 @@ h1 {
     font-size: 18px;
   }
 }
-

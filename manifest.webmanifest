@@ -1,7 +1,7 @@
 {
-  "name": "Blind AI",
-  "short_name": "Blind AI",
-  "description": "Blind AI -sivusto on rakenteilla.",
+  "name": "BLND AI",
+  "short_name": "BLND AI",
+  "description": "Alkuvaiheen työnimisivusto on rakenteilla.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
